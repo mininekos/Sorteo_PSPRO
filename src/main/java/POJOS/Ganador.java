@@ -38,7 +38,7 @@ public class Ganador<T extends Aspirante,E extends Vivienda> {
 
     @Override
     public String toString() {
-        return "Ganador{" + "t=" + t + ", e=" + e + '}';
+        return "Ganador -->" + "t=" + t + ", e=" + e + '}';
     }
 
     @Override

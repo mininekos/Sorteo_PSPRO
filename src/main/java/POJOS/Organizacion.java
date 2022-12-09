@@ -31,7 +31,7 @@ public class Organizacion extends Aspirante{
 
     @Override
     public String toString() {
-        return "Organizacion{ vecinal=" + vecinal + '}';
+        return super.toString()+" Organizacion --> vecinal=" + vecinal;
     }
 
 

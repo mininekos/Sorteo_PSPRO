@@ -37,7 +37,7 @@ public class Persona extends Aspirante{
 
     @Override
     public String toString() {
-        return "Persona{ tipo=" + tipo + '}';
+        return super.toString()+" Persona --> tipo=" + tipo;
     }
     
     

@@ -46,9 +46,13 @@ public class SorteoGenericos {
                 participaciones.add(aspirante);
             }
         }
-        
+        Collections.shuffle(participaciones);
         for(int ind=0;ind<viviendas.size();ind++){
-            
+            ganadores.add(new Ganador(aspirantes.remove(0),viviendas.get(ind)));
+        }
+        
+        for(int ind=0;ind<ganadores.size();ind++){
+            System.out.println(ganadores.get(ind).toString());
         }
         
     }

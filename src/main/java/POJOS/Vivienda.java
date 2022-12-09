@@ -14,12 +14,12 @@ import java.util.Objects;
 public class Vivienda {
     
     private String registro;
-    private String dirección;
+    private String direcion;
     private TipoVivienda vivienda;
 
-    public Vivienda(String registro, String dirección, TipoVivienda vivienda) {
+    public Vivienda(String registro, String direcion, TipoVivienda vivienda) {
         this.registro = registro;
-        this.dirección = dirección;
+        this.direcion = direcion;
         this.vivienda = vivienda;
     }
 
@@ -31,12 +31,12 @@ public class Vivienda {
         this.registro = registro;
     }
 
-    public String getDirección() {
-        return dirección;
+    public String getDireccion() {
+        return direcion;
     }
 
-    public void setDirección(String dirección) {
-        this.dirección = dirección;
+    public void setDireccion(String dirección) {
+        this.direcion = dirección;
     }
 
     public TipoVivienda getVivienda() {
@@ -49,7 +49,7 @@ public class Vivienda {
 
     @Override
     public String toString() {
-        return "Vivienda{" + "registro=" + registro + ", direcci\u00f3n=" + dirección + ", vivienda=" + vivienda + '}';
+        return "Vivienda{" + "registro=" + registro + ", dirección=" + direcion + ", vivienda=" + vivienda + '}';
     }
 
     @Override
